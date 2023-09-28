@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StringActivity">
+
+    <TextView
+        android:id="@+id/textViewS1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto 1:" />
+
+    <EditText
+        android:id="@+id/etText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textViewS2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto 2:" />
+
+    <EditText
+        android:id="@+id/etText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnCalculateString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comparar" />
+
+    <TextView
+        android:id="@+id/tvResultString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+</LinearLayout>
