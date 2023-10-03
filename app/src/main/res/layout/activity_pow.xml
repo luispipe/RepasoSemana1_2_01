@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number|numberDecimal" />
+        android:inputType="number|numberDecimal|numberSigned" />
 
     <TextView
         android:id="@+id/textView2"
@@ -33,13 +33,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number|numberDecimal" />
+        android:inputType="number|numberDecimal|numberSigned" />
 
     <Button
         android:id="@+id/btnCalculatePow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/tvResultTx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/tvResultPow"
