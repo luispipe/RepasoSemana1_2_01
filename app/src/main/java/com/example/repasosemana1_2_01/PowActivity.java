@@ -44,6 +44,7 @@ public class PowActivity extends AppCompatActivity {
                     resultTxt.setVisibility(View.VISIBLE);
 
                     resultPow.setText(potencia+"");
+                    System.out.println(potencia);
                 }
 
             }
